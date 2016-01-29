@@ -48,7 +48,7 @@ class SSH(object):
             command_response['stdout'] += chan.recv(1024)
 
         while chan.recv_stderr_ready():
-            command_response['stderr'] += chan.recv(1024)
+            command_response['stderr'] += chan.recv_stderr(1024)
 
         print ("output")
         print (command_response['stdout'])
