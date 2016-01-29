@@ -6,6 +6,7 @@
 import paramiko
 import time
 
+
 class SSH(object):
     """ Connect and execute command to a client server
 
