@@ -1,5 +1,5 @@
 # .gitignore files to repository
 
-.idea/*
+/.idea/*
 *.pyc
 vcs.xml
