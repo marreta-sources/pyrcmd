@@ -34,26 +34,35 @@ At the moment the pyrcmd supports commands over SSH.
 SSH support
 -----------
 
-Attributes:
+- Attributes:
 
 Address     IP or Hostname to client server
+
 User        User used to connect using ssh
+
 Passwd      Password used to connect to ssh
+
 timeout     Timeout to Connect (Hostname is valid and has route to host),
 default value for timeout is 30
 
-Return:
+- Return:
+
 Dictionary (Array) with Return Code, Std output and Std Error
 
-Exceptions:
+- Exceptions:
+
 AuthFailure : Client-> Server Problem with Authentication
+
 BadHostKey: Host Key does not match
+
 SshProtocol: Problem of SSH2 Negotiation
+
 TimeOut: Timeout while trying to connect to a valid address
+
 TimeoutExecuting: Timeout while trying to execute command.
 
-Sample:
 
+Sample:
 
 >>> import pyrcmd
 >>> remote = pyrcmd.SSH('192.168.0.1', 'foobar', 'Password1')
