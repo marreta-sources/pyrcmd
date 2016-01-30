@@ -38,9 +38,7 @@ class SSH(object):
     def execute(self, command):
         seconds_to_timeout = 1
         try:
-            
-            # TODO (bfdacosta): Could you explain that?
-            test_resovler = socket.gethostbyname(self.address)
+            socket.gethostbyname(self.address)
         except socket.gaierror:
             raise ValueError("DNSLookupFailure")
 
