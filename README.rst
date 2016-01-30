@@ -22,6 +22,7 @@ Download the pyrcmd from PIP (not available yet) or from Marreco Github
 http://github.com/marreta-sources/pyrcmd/ and uncompress
 
 .. code-block:: bash
+
     $ python setup.py install
 
 
