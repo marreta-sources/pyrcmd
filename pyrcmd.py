@@ -23,6 +23,7 @@ class SSH(object):
                     BadHostKey: Host Key does not match
                     SshProtocol: Problem of SSH2 Negotiation
                     TimeOut: Timeout while trying to connect to a valid address
+                    TimeoutExecuting: Timeout while trying to execute command.
     """
 
     def __init__(self, ip, user, passwd, timeout=30):
