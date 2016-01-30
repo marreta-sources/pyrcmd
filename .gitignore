@@ -1,0 +1,8 @@
+# .gitignore files to repository
+
+*.pyc
+*egg-info
+.tox
+build
+dist
+.idea/

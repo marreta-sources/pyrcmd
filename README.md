@@ -1,3 +1,0 @@
-# pyrcmd
-
-Python Remote Commands
