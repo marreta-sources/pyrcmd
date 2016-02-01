@@ -37,6 +37,7 @@ class SSH(object):
 
     def execute(self, command):
         seconds_to_timeout = 1
+        global client
         try:
             socket.gethostbyname(self.address)
         except socket.gaierror:
@@ -69,7 +70,6 @@ class SSH(object):
                 raise ValueError('TimeoutExecuting')
 
         command_response = {'return_code': '', 'stdout': '', 'stderr': ''}
-        # TODO (bfdacosta) What is this client? I did found
         chan = client.get_transport().open_session()
         chan.settimeout(self.timeout)
         chan.exec_command(command=command)
