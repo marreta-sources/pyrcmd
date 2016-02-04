@@ -36,8 +36,8 @@ class SSH(object):
         self.timeout = timeout
 
     def execute(self, command):
-        seconds_to_timeout = 1
         global client
+        seconds_to_timeout = 1
         try:
             socket.gethostbyname(self.address)
         except socket.gaierror:
