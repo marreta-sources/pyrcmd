@@ -59,9 +59,6 @@ class SSH(object):
                 raise ValueError("SshProtocol")
             except socket.timeout:
                 raise ValueError("TimeOut")
-
-            # TODO (bfdacosta): This exception is broad. Some specific 
-            # exception?
             except:
                 seconds_to_timeout += 1
                 time.sleep(1)
