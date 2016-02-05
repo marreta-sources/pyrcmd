@@ -11,6 +11,7 @@ python:
 
 install:
   # Self-install for setup.py-driven deps
+  - pip install tox
   - pip install -e .
 
 script:
