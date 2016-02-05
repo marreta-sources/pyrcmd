@@ -34,7 +34,7 @@ Just run the PIP
 From local
 ----------
 
-Download the pyrcmd from PIP (not available yet) or from Marreco Github
+Download the pyrcmd from PIP (not available yet) or from Marreta Github
 http://github.com/marreta-sources/pyrcmd/ and uncompress
 
 .. code-block:: bash
