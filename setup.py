@@ -30,7 +30,7 @@ setup(
     license='BSD',
     platforms='Posix; MacOS X; Windows',
     classifiers=[
-        'Development Status :: 1 - Planning',
+        'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Operating System :: Unix',
