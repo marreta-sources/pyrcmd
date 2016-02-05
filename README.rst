@@ -3,6 +3,22 @@ pyrcmd
 
 Python Remote Commands
 
+
+.. image:: https://travis-ci.org/marreta-sources/pyrcmd.svg?branch=master
+    :target: https://travis-ci.org/marreta-sources/pyrcmd
+
+:PyStorage:   Python Remote Commands toolkit
+:Copyright:   Copyright (c) 2016 Bruno Costa, Kairo Araujo <coder@marreta.org>
+:License:     BSD
+:Development: https://github.com/marreta-sources/pyrcmd
+
+.. contents::
+    :local:
+    :depth: 2
+    :backlinks: none
+
+
+
 Installing
 ==========
 
