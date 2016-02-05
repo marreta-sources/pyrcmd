@@ -100,4 +100,22 @@ Working with exceptions
 AuthFailure
 
 
+Contributing
+============
+
+1. Make the for from  https://github.com/marreta-sources/pyrcmd
+
+2. Change the code
+
+3. Test the code
+    1. First check all the PEP8 recommendations and possible spells.
+
+    2. Run tests with tox
+
+    3. Create a http://travis-ci.com for your fork and verify the tests
+
+4. Submit your code doing a pull request
+    1. try to give us details about the code. We are newbies with Python and it
+    will be help us.
+
 
