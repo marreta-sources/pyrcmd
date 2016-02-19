@@ -73,10 +73,10 @@ class SSH(object):
         command_response['return_code'] = chan.recv_exit_status()
 
         while chan.recv_ready():
-            command_response['stdout'] += chan.recv(1024)
+            command_response['stdout'] += str(chan.recv(1024))
 
         while chan.recv_stderr_ready():
-            command_response['stderr'] += chan.recv_stderr(1024)
+            command_response['stderr'] += str(chan.recv_stderr(1024))
 
         client.close()
 
